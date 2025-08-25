@@ -1,0 +1,11 @@
+1. Run the emsdk_env.ps1 script by giving its full path:
+
+& "C:\Users\Briannna Agbunag\emsdk\emsdk_env.ps1"
+
+2. compile cpp into HTML/JS/WASM:
+
+emcc hello.cpp -o hello.html
+
+3. run locally with emscript
+
+emrun --no_browser --port 8080 .
